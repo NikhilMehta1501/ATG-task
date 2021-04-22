@@ -401,6 +401,10 @@
 
 #join-grp-btn-mobile {
   display: none;
+  border: 0.8px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0);
 }
 
 #search-bar {
@@ -568,33 +572,6 @@
 
 .filter-btn {
   display: none;
-  position: absolute;
-  width: 106px;
-  height: 32px;
-  left: 360px;
-  top: 312px;
-  background: #F1F3F5;
-  border-radius: 4px;
-  border: 0px;
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 17px;
-  /* identical to box height */
-  color: #212529;
-}
-
-.filter-btn option {
-  width: 55px;
-  height: 17px;
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 17px;
-  /* identical to box height */
-  color: #212529;
 }
 
 .card-type-1 {
@@ -1229,11 +1206,31 @@
     display: inline;
   }
 
+  #navbar {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #back-arrow-mobile {
+    display: inline;
+    border: 0px;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  #back-arrow-mobile i {
+    color: white;
+  }
+
   #header-img-div {
     overflow: hidden;
     width: 480px;
     height: 236px;
     left: 0px;
+    margin-top: -55px;
+    z-index: -1;
   }
 
   #header-img {
@@ -1257,13 +1254,13 @@
 
   #header-heading {
     left: 16px;
-    top: 164px;
+    top: 130px;
     font-size: 17px;
   }
 
   #header-content {
     left: 16px;
-    top: 206px;
+    top: 160px;
     font-size: 12px;
   }
 
@@ -1282,7 +1279,7 @@
     width: 73px;
     height: 18px;
     left: 16px;
-    top: 320px;
+    top: 265px;
     padding-bottom: 10px;
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -1299,6 +1296,33 @@
 
   .filter-btn {
     display: inline;
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 360px;
+    top: 255px;
+    background: #F1F3F5;
+    border-radius: 4px;
+    border: 0px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #212529;
+  }
+
+  .filter-btn option {
+    width: 55px;
+    height: 17px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #212529;
   }
 
   #cards {
