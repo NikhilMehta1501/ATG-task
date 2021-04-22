@@ -505,6 +505,7 @@
   background-color: #FFFFFF;
   border-bottom: 1px solid #E0E0E0;
   padding: 0px;
+  margin-top: 20px;
 }
 
 .nav-item {
@@ -535,10 +536,16 @@
   line-height: 21px;
   color: #000000;
   border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  margin-bottom: -8px;
 }
 
 #nav-text-mobile {
   display: none;
+}
+
+#nav-btn-div {
+  margin-bottom: 20px;
 }
 
 #write-post {
